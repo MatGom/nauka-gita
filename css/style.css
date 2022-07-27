@@ -10,5 +10,29 @@ body {
 }
 
 .anthem {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 30px;
+	margin: 0 auto;
+	width: 25%;
+	align-items: center;
 	background: #eee;
+}
+
+.anthem-title {
+	margin-bottom: 30px;
+	text-align: center;
+}
+
+.verse,
+.chorus {
+	padding: 15px;
+	margin: 20px;
+}
+
+.chorus {
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	font-weight: bold;
 }
